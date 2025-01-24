@@ -1,0 +1,137 @@
+-----------------------
+Campo: CNPJ_Companhia
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Data_Referencia
+-----------------------
+   Descrição : Data de referência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: ID_Documento
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Nome_Companhia
+-----------------------
+   Descrição : Nome da Companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Versao
+-----------------------
+   Descrição : Versão do documento
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+
+-----------------------
+Campo: Quantidade_Acoes_Ordinarias
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 0
+
+-----------------------
+Campo: Reducao_Capital_Anterior
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 6
+
+-----------------------
+Campo: Quantidade_Acoes_Preferenciais
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 0
+
+-----------------------
+Campo: ID_Capital_Social_Reducao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Razao_Reducao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 8000
+
+-----------------------
+Campo: Forma_Restituicao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 8000
+
+-----------------------
+Campo: Data_Deliberacao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Reducao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Valor_Total_Reducao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Valor_Restituido_Por_Acao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 8
+
+-----------------------
+Campo: Quantidade_Total_Acoes
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 0
+

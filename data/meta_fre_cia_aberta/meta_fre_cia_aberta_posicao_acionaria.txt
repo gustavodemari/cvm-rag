@@ -1,0 +1,242 @@
+-----------------------
+Campo: Acionista
+-----------------------
+   Descrição : Nome do acionista
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Acionista_Controlador
+-----------------------
+   Descrição : Indica se acionista é controlador 
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: Acionista_Relacionado
+-----------------------
+   Descrição : Nome do acionista relacionado na hierarquia de controle
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: CNPJ_Companhia
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: CPF_CNPJ_Acionista
+-----------------------
+   Descrição : CPF/CNPJ do acionista
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: CPF_CNPJ_Acionista_Relacionado
+-----------------------
+   Descrição : CPF/CNPJ do acionista relacionado na hierarquia de controle
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: CPF_CNPJ_Representante_legal
+-----------------------
+   Descrição : CPF/CNPJ do representante legal
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Data_Composicao_Capital_Social
+-----------------------
+   Descrição : Data de composição do capital social
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Referencia
+-----------------------
+   Descrição : Data de referência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Ultima_Alteracao
+-----------------------
+   Descrição : Data da última alteração
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: ID_Acionista
+-----------------------
+   Descrição : Identificador único do registro de acionista
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: ID_Acionista_Relacionado
+-----------------------
+   Descrição : Identificador único do acionista relacionado na hierarquia de controle
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: ID_Documento
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Nacionalidade
+-----------------------
+   Descrição : Nacionalidade
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 30
+
+-----------------------
+Campo: Nome_Companhia
+-----------------------
+   Descrição : Nome da Companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Participante_Acordo_Acionistas
+-----------------------
+   Descrição : Indica se acionista participa do acordo de acionistas
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: Percentual_Acao_Ordinaria_Circulacao
+-----------------------
+   Descrição : Percentual de ações ordinárias em circulação
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 6
+
+-----------------------
+Campo: Percentual_Acao_Preferencial_Circulacao
+-----------------------
+   Descrição : Percentual de ações preferenciais em circulação
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 6
+
+-----------------------
+Campo: Percentual_Total_Acoes_Circulacao
+-----------------------
+   Descrição : Percentual total de ações em circulação
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 6
+
+-----------------------
+Campo: Quantidade_Acao_Ordinaria_Circulacao
+-----------------------
+   Descrição : Quantidade de ações ordinárias em circulação
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 0
+
+-----------------------
+Campo: Quantidade_Acao_Preferencial_Circulacao
+-----------------------
+   Descrição : Quantidade de ações preferenciais em circulação
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 0
+
+-----------------------
+Campo: Quantidade_Total_Acoes_Circulacao
+-----------------------
+   Descrição : Quantidade total de ações em circulação
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 0
+
+-----------------------
+Campo: Representante_Legal
+-----------------------
+   Descrição : Nome do representante legal
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Residente_Exterior
+-----------------------
+   Descrição : Indica se o acionista é residente no exterior
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: Sigla_UF
+-----------------------
+   Descrição : Sigla da Unidade da Federação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Tipo_Pessoa_Acionista
+-----------------------
+   Descrição : Tipo de pessoa do acionista
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 2
+
+-----------------------
+Campo: Tipo_Pessoa_Acionista_Relacionado
+-----------------------
+   Descrição : Tipo de pessoa do acionista relacionado na hierarquia de controle
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 2
+
+-----------------------
+Campo: Tipo_Pessoa_Representante_Legal
+-----------------------
+   Descrição : Tipo de pessoa do representante legal
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 2
+
+-----------------------
+Campo: Versao
+-----------------------
+   Descrição : Versão do documento
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+

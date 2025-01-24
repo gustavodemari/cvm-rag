@@ -1,0 +1,180 @@
+-----------------------
+Campo: CNPJ_Companhia
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Data_Referencia
+-----------------------
+   Descrição : Data de referência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Transacao
+-----------------------
+   Descrição : Data da transação
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Documento_Parte_Relacionada
+-----------------------
+   Descrição : Documento da Parte Relacionada
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Duracao_Transacao
+-----------------------
+   Descrição : Duração da transação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 1000
+
+-----------------------
+Campo: Emprestimo_Divida
+-----------------------
+   Descrição : Indica se a transação é empréstimo ou outro tipo de dívida
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: Especificacao_Posicao_Contratual_Emissor
+-----------------------
+   Descrição : Especificação quando a posição contratual do emissor for "Outra"
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 1000
+
+-----------------------
+Campo: Garantia_Seguro
+-----------------------
+   Descrição : Garantias e seguros
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 1000
+
+-----------------------
+Campo: ID_Documento
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Montante_Envolvido
+-----------------------
+   Descrição : Montante envolvido
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Montante_Interesse_Parte_Relacionada
+-----------------------
+   Descrição : Montante correspondente ao interesse da parte relacionada no negócio
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 1000
+
+-----------------------
+Campo: Natureza_Razao_Operacao
+-----------------------
+   Descrição : Natureza e razão para operação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 1000
+
+-----------------------
+Campo: Nome_Companhia
+-----------------------
+   Descrição : Nome da Companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Objeto_Contrato
+-----------------------
+   Descrição : Objeto do contrato
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 1000
+
+-----------------------
+Campo: Parte_Relacionada
+-----------------------
+   Descrição : Parte Relacionada
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Posicao_Contratual_Emissor
+-----------------------
+   Descrição : Indica se o emissor é credor ou devedor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 7
+
+-----------------------
+Campo: Relacao_Emissor
+-----------------------
+   Descrição : Relação com o emissor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 8000
+
+-----------------------
+Campo: Rescisao
+-----------------------
+   Descrição : Rescisão
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 8000
+
+-----------------------
+Campo: Saldo_Existente
+-----------------------
+   Descrição : Saldo existente
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Taxa_Juros
+-----------------------
+   Descrição : Taxa de juros
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 6
+
+-----------------------
+Campo: Tipo_Pessoa
+-----------------------
+   Descrição : Tipo de pessoa
+   Domínio   : PF/PJ
+   Tipo Dados: varchar
+   Tamanho   : 2
+
+-----------------------
+Campo: Versao
+-----------------------
+   Descrição : Versão do documento
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+

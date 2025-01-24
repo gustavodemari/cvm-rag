@@ -1,0 +1,158 @@
+-----------------------
+Campo: Classe_Acao_Preferencial
+-----------------------
+   Descrição : Classe de ação preferencial
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: CNPJ_Companhia
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Data_Fim_Exercicio_Social
+-----------------------
+   Descrição : Data fim do Exercício Social
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Inicio_Exercicio_Social
+-----------------------
+   Descrição : Data de início do Exercício Social
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Referencia
+-----------------------
+   Descrição : Data de referência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: ID_Documento
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Nome_Companhia
+-----------------------
+   Descrição : Nome da Companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Valor_Mobiliario
+-----------------------
+   Descrição : Valor mobiliário
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Versao
+-----------------------
+   Descrição : Versão do documento
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+
+-----------------------
+Campo: Valor_Maior_Cotacao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Especie_Acao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Valor_Volume_Negociado
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Valor_Menor_Cotacao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Escala_Cotacao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 22
+
+-----------------------
+Campo: Entidade_Administradora_Mercado
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Mercado_Valor_Mobiliario
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Valor_Cotacao_Media
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Descricao_Outro_Valor_Mobiliario
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Data_Fim_Trimestre
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: date
+   Tamanho   : 10
+

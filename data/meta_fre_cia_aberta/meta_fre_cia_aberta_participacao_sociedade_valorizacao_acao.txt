@@ -1,0 +1,86 @@
+-----------------------
+Campo: CNPJ_Companhia
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Data_Referencia
+-----------------------
+   Descrição : Data de referência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: ID_Documento
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Nome_Companhia
+-----------------------
+   Descrição : Nome da Companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Versao
+-----------------------
+   Descrição : Versão do documento
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+
+-----------------------
+Campo: Data_Encerramento
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Variacao_Percentual_Valor_Mercado
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 24
+   Scale     : 8
+
+-----------------------
+Campo: Variacao_Percentual_Valor_Contabil
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 24
+   Scale     : 8
+
+-----------------------
+Campo: Valor_Montante_Dividendos_Recebidos
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: ID_Sociedade
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+

@@ -1,0 +1,174 @@
+-----------------------
+Campo: CNPJ
+-----------------------
+   Descrição : Cadastro Nacional de Pessoas Jurídicas
+   Domínio   : Alfanumérico
+   Tipo Dados: char
+   Tamanho   : 14
+
+-----------------------
+Campo: CNPJ_Companhia
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Codigo_CVM
+-----------------------
+   Descrição : Código CVM
+   Domínio   : Numérico
+   Tipo Dados: varchar
+   Tamanho   : 6
+
+-----------------------
+Campo: Data_Referencia
+-----------------------
+   Descrição : Data de referência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: ID_Documento
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Nome_Companhia
+-----------------------
+   Descrição : Nome da Companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Versao
+-----------------------
+   Descrição : Versão do documento
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+
+-----------------------
+Campo: Data_Valor_Contabil
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Valor_Mercado
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Valor_Mercado
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Tipo_Sociedade
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: UF_Sede
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Razao_Aquisicao_Manutencao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 1000
+
+-----------------------
+Campo: Valor_Contabil
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Descricao_Atividades
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 1000
+
+-----------------------
+Campo: Razao_Social
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Participacao_Emissor
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: numeric
+   Precisão  : 24
+   Scale     : 8
+
+-----------------------
+Campo: Possui_Registro_CVM
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: Municipio_Sede
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Pais_Sede
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: ID_Sociedade
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+

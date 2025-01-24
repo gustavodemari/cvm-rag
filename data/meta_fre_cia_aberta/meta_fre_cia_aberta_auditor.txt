@@ -1,0 +1,147 @@
+-----------------------
+Campo: Auditor
+-----------------------
+   Descrição : Nome do Auditor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: CNPJ_Auditor
+-----------------------
+   Descrição : CNPJ do Auditor
+   Domínio   : Alfanumérico
+   Tipo Dados: char
+   Tamanho   : 14
+
+-----------------------
+Campo: CNPJ_Companhia
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Codigo_CVM_Auditor
+-----------------------
+   Descrição : Código CVM do auditor
+   Domínio   : Númerico
+   Tipo Dados: char
+   Tamanho   : 6
+
+-----------------------
+Campo: Data_Referencia
+-----------------------
+   Descrição : Data de referência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: ID_Documento
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Nome_Companhia
+-----------------------
+   Descrição : Nome da Companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Versao
+-----------------------
+   Descrição : Versão do documento
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+
+-----------------------
+Campo: Justificativa_Substituicao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 8000
+
+-----------------------
+Campo: Servico_Contratado
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 8000
+
+-----------------------
+Campo: Remuneracao_Auditor
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 8000
+
+-----------------------
+Campo: Tipo_Origem_Auditor
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 11
+
+-----------------------
+Campo: CPF_Auditor
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: char
+   Tamanho   : 14
+
+-----------------------
+Campo: Data_Inicio_Prestacao_Servico
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Fim_Contratacao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Razao_Apresentada
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 8000
+
+-----------------------
+Campo: ID_Auditor
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Data_Inicio_Contratacao
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: date
+   Tamanho   : 10
+

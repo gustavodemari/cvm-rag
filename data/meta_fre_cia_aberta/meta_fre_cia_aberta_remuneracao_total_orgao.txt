@@ -1,0 +1,234 @@
+-----------------------
+Campo: Baseada_Acoes
+-----------------------
+   Descrição : Baseada em ações
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Beneficios_Diretos_Indiretos
+-----------------------
+   Descrição : Benefícios diretos e indiretos
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Bonus
+-----------------------
+   Descrição : Bônus
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Cessacao_Cargo
+-----------------------
+   Descrição : Cessação do cargo
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: CNPJ_Companhia
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Comissoes
+-----------------------
+   Descrição : Comissões
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Data_Fim_Exercicio_Social
+-----------------------
+   Descrição : Data fim do Exercício Social
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Inicio_Exercicio_Social
+-----------------------
+   Descrição : Data de início do Exercício Social
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Referencia
+-----------------------
+   Descrição : Data de referência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Descricao_Outros_Remuneracoes_Fixas
+-----------------------
+   Descrição : Descrição de outras remunerações fixas
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 8000
+
+-----------------------
+Campo: Descricao_Outros_Remuneracoes_Variaveis
+-----------------------
+   Descrição : Descrição de outras remunerações variáveis
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 8000
+
+-----------------------
+Campo: ID_Documento
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Nome_Companhia
+-----------------------
+   Descrição : Nome da Companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Numero_Membros
+-----------------------
+   Descrição : Número de membros
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Numero_Membros_Remunerados
+-----------------------
+   Descrição : Número de membros remunerados
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Observacao
+-----------------------
+   Descrição : Observação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 8000
+
+-----------------------
+Campo: Orgao_Administracao
+-----------------------
+   Descrição : Órgão da administração
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Outros_Valores_Fixos
+-----------------------
+   Descrição : Outros valores fixos
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Outros_Valores_Variaveis
+-----------------------
+   Descrição : Outros valores variáveis
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Participacao_Resultados
+-----------------------
+   Descrição : Participação de resultados
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Participacao_Reunioes
+-----------------------
+   Descrição : Participação em reuniões
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Participacoes_Comites
+-----------------------
+   Descrição : Participações em comitês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Pos_emprego
+-----------------------
+   Descrição : Pós-Emprego
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Salario
+-----------------------
+   Descrição : Salário
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Total_Remuneracao
+-----------------------
+   Descrição : Total da remuneração
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Total_Remuneracao_Orgao
+-----------------------
+   Descrição : Total da remuneração do órgão
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 2
+
+-----------------------
+Campo: Versao
+-----------------------
+   Descrição : Versão do documento
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+

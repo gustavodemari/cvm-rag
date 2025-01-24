@@ -1,0 +1,138 @@
+-----------------------
+Campo: Cargo_Administrador
+-----------------------
+   Descrição : Cargo do administrador
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 1000
+
+-----------------------
+Campo: Cargo_Pessoa_Relacionada
+-----------------------
+   Descrição : Cargo da pessoa relacionada
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 1000
+
+-----------------------
+Campo: Categoria_Pessoa_Relacionada
+-----------------------
+   Descrição : Tipo ou categoria da Pessoa Relacionada
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: CNPJ_Companhia
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: CPF_Administrador
+-----------------------
+   Descrição : CPF do administrador
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Data_Fim_Exercicio_Social
+-----------------------
+   Descrição : Data fim do Exercício Social
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Inicio_Exercicio_Social
+-----------------------
+   Descrição : Data de início do Exercício Social
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Referencia
+-----------------------
+   Descrição : Data de referência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Documento_Pessoa_Relacionada
+-----------------------
+   Descrição : CPF/CNPJ da Pessoa Relacionada
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: ID_Documento
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Nome_Administrador
+-----------------------
+   Descrição : Nome do administrador
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Nome_Companhia
+-----------------------
+   Descrição : Nome da Companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Nome_Pessoa_Relacionada
+-----------------------
+   Descrição : Nome da pessoa relacionada
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Observacao
+-----------------------
+   Descrição : Observação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 1000
+
+-----------------------
+Campo: Tipo_Pessoa_Relacionada
+-----------------------
+   Descrição : Tipo de Pessoa Relacionada
+   Domínio   : PF/PJ
+   Tipo Dados: varchar
+   Tamanho   : 2
+
+-----------------------
+Campo: Tipo_Relacao
+-----------------------
+   Descrição : Tipo de Relação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Versao
+-----------------------
+   Descrição : Versão do documento
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+

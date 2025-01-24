@@ -1,0 +1,187 @@
+-----------------------
+Campo: Bairro
+-----------------------
+   Descrição : Bairro
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: CEP
+-----------------------
+   Descrição : CEP
+   Domínio   : Numérico
+   Tipo Dados: char
+   Tamanho   : 8
+
+-----------------------
+Campo: Cidade
+-----------------------
+   Descrição : Cidade
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: CNPJ_Companhia
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Complemento
+-----------------------
+   Descrição : Complemento
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: CPF_Responsavel_Tecnico
+-----------------------
+   Descrição : CPF do responsável técnico
+   Domínio   : Alfanumérico
+   Tipo Dados: char
+   Tamanho   : 14
+
+-----------------------
+Campo: Data_Referencia
+-----------------------
+   Descrição : Data de referência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DDD_Telefone
+-----------------------
+   Descrição : Código de DDD (Telefone)
+   Domínio   : Numérico
+   Tipo Dados: char
+   Tamanho   : 4
+
+-----------------------
+Campo: DDI_Telefone
+-----------------------
+   Descrição : Código de DDI (Telefone)
+   Domínio   : Numérico
+   Tipo Dados: char
+   Tamanho   : 4
+
+-----------------------
+Campo: Email
+-----------------------
+   Descrição : Endereço de e-mail
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Fax
+-----------------------
+   Descrição : FAX
+   Domínio   : Numérico
+   Tipo Dados: char
+   Tamanho   : 10
+
+-----------------------
+Campo: ID_Documento
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Logradouro
+-----------------------
+   Descrição : Logradouro
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 60
+
+-----------------------
+Campo: Nome_Companhia
+-----------------------
+   Descrição : Nome da Companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Pais
+-----------------------
+   Descrição : País
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Responsavel_Tecnico
+-----------------------
+   Descrição : Responsável técnico
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Sigla_UF
+-----------------------
+   Descrição : Sigla da Unidade da Federação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Telefone
+-----------------------
+   Descrição : Telefone
+   Domínio   : Alfanumérico
+   Tipo Dados: char
+   Tamanho   : 10
+
+-----------------------
+Campo: UF
+-----------------------
+   Descrição : Unidade da Federação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Versao
+-----------------------
+   Descrição : Versão do documento
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+
+-----------------------
+Campo: Data_Inicio_Responsavel_Tecnico
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Fim_Responsavel_Tecnico
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: ID_Auditor
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+

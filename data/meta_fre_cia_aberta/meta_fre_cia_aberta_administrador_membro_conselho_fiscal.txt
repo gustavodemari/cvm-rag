@@ -1,0 +1,172 @@
+-----------------------
+Campo: Cargo_Eletivo_Ocupado
+-----------------------
+   Descrição : Cargo eletivo ocupado
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: CNPJ_Companhia
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Complemento_Cargo_Eletivo_Ocupado
+-----------------------
+   Descrição : Cargo eletivo ocupado (Complemento)
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: CPF
+-----------------------
+   Descrição : Cadastro de Pessoas Físicas
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Data_Eleicao
+-----------------------
+   Descrição : Data da eleição
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Nascimento
+-----------------------
+   Descrição : Data de nascimento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Posse
+-----------------------
+   Descrição : Data da posse
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Referencia
+-----------------------
+   Descrição : Data de referência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Eleito_Controlador
+-----------------------
+   Descrição : Indica se foi eleito pelo controlador
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: Experiencia_Profissional
+-----------------------
+   Descrição : Experiência profissional
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 8000
+
+-----------------------
+Campo: ID_Documento
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Nome
+-----------------------
+   Descrição : Nome da Pessoa Física
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Nome_Companhia
+-----------------------
+   Descrição : Nome da Companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Numero_Mandatos_Consecutivos
+-----------------------
+   Descrição : Número de mandatos consecutivos
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+
+-----------------------
+Campo: Orgao_Administracao
+-----------------------
+   Descrição : Órgão da administração
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Outro_Cargo_Funcao
+-----------------------
+   Descrição : Outros cargos e funções exercidas
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 1000
+
+-----------------------
+Campo: Percentual_Participacao_Reunioes
+-----------------------
+   Descrição : Percentual de participação nas reuniões
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 7
+   Scale     : 2
+
+-----------------------
+Campo: Prazo_Mandato
+-----------------------
+   Descrição : Prazo do mandato
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Profissao
+-----------------------
+   Descrição : Profissão
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Versao
+-----------------------
+   Descrição : Versão do documento
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+
+-----------------------
+Campo: Data_Inicio_Primeiro_Mandato
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: date
+   Tamanho   : 10
+

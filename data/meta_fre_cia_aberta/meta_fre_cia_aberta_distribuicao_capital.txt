@@ -1,0 +1,131 @@
+-----------------------
+Campo: CNPJ_Companhia
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Data_Referencia
+-----------------------
+   Descrição : Data de referência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Ultima_Assembleia
+-----------------------
+   Descrição : Data da última assembléia geral de acionistas
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: ID_Documento
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Nome_Companhia
+-----------------------
+   Descrição : Nome da Companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Percentual_Acoes_Ordinarias_Circulacao
+-----------------------
+   Descrição : Percentual de ações ordinárias em circulação
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 6
+
+-----------------------
+Campo: Percentual_Acoes_Preferenciais_Circulacao
+-----------------------
+   Descrição : Percentual de ações preferenciais em circulação
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 6
+
+-----------------------
+Campo: Percentual_Total_Acoes_Circulacao
+-----------------------
+   Descrição : Percentual total de ações em circulação
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 6
+
+-----------------------
+Campo: Quantidade_Acionistas_Investidores_Institucionais
+-----------------------
+   Descrição : Quantidade de investidores institucionais
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 0
+
+-----------------------
+Campo: Quantidade_Acionistas_PF
+-----------------------
+   Descrição : Quantidade de acionistas pessoas físicas
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 0
+
+-----------------------
+Campo: Quantidade_Acionistas_PJ
+-----------------------
+   Descrição : Quantidade de acionistas pessoas jurídicas
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 0
+
+-----------------------
+Campo: Quantidade_Acoes_Ordinarias_Circulacao
+-----------------------
+   Descrição : Quantidade de ações ordinárias em circulação
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 0
+
+-----------------------
+Campo: Quantidade_Acoes_Preferenciais_Circulacao
+-----------------------
+   Descrição : Quantidade de ações preferenciais em circulação
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 0
+
+-----------------------
+Campo: Quantidade_Total_Acoes_Circulacao
+-----------------------
+   Descrição : Quantidade total de ações em circulação
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 0
+
+-----------------------
+Campo: Versao
+-----------------------
+   Descrição : Versão do documento
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+
