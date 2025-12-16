@@ -21,7 +21,6 @@ By integrating these technologies, the system retrieves relevant documents from 
 - Embeddings: [paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
 - Large Language Model: [gemini-1.5-flash](https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-flash)
 
-
 # Install
 ```
 poetry install
@@ -33,7 +32,6 @@ poetry install
 poetry shell
 python app.py
 ```
-
 
 # Docs
 
